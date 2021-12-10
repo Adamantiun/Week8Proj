@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example2.ShapeSpockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-10T15:07:46" hostname="DESKTOP-6QRG024" time="0.143">
+<testsuite name="pt.up.fe.ldts.example2.ShapeSpockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-10T15:36:29" hostname="DESKTOP-6QRG024" time="0.196">
   <properties/>
-  <testcase name="Get Area Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.084"/>
-  <testcase name="Get Area Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.001"/>
+  <testcase name="Get Area Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.127"/>
+  <testcase name="Get Area Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.008"/>
   <testcase name="Get Perimeter Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.002"/>
-  <testcase name="Get Perimeter Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.0"/>
+  <testcase name="Get Perimeter Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.002"/>
   <testcase name="Draw Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.053"/>
   <testcase name="Draw Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
