@@ -12,18 +12,18 @@ public class Tree {
     public String locationName;
     private List<Date> appraisalDates;
 
-    public Tree(Date plantedAt, String locationLatitude, String locationLongitude, String locationName){
+    public Tree(Date plantedAt, Location location){
         this.plantedAt = plantedAt;
-        this.setLocation(locationLatitude, locationLongitude, locationName);
+        this.setLocation(location);
         this.appraisalDates = new ArrayList<>();
     }
 
-    public void setLocation(String locationLatitude, String locationLongitude, String locationName){
-        this.locationLatitude = locationLatitude;
-        this.locationLongitude = locationLongitude;
-        this.locationName = locationName;
+    public void setLocation(Location location){
+        this.locationLatitude = location.getLocationLatitude();
+        this.locationLongitude = location.getLocationLongitude();
+        this.locationName = location.getLocationName();
     }
-
+    @Override
     public String toString() {
         return "Tree planted at " + this.plantedAt.toString() + " in location " + this.locationLatitude + "," + this.locationLongitude + " (" + this.locationName + ")";
     }

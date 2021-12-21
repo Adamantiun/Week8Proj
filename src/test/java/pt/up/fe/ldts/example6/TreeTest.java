@@ -18,7 +18,7 @@ public class TreeTest {
     public void setUp() throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
         date = sdf.parse("31-08-2002 10:20:56");
-        tree = new Tree(date, "41.177772696363114", "-8.59843522310257", "FEUP");
+        tree = new Tree(date,new Location("41.177772696363114", "-8.59843522310257", "FEUP"));
     }
 
     @Test
@@ -31,7 +31,7 @@ public class TreeTest {
 
     @Test
     public void testTreeSetLocation() {
-        tree.setLocation("loclat", "loclon", "locname");
+        tree.setLocation(new Location("loclat", "loclon", "locname"));
         assertEquals(tree.plantedAt, date);
         assertEquals(tree.locationLatitude, "loclat");
         assertEquals(tree.locationLongitude, "loclon");

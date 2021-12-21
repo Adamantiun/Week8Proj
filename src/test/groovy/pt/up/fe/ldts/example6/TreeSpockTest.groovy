@@ -10,7 +10,7 @@ class TreeSpockTest extends Specification {
     def setup() {
         def sdf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss")
         date = sdf.parse("31-08-2002 10:20:56")
-        tree = new Tree(date, "41.177772696363114", "-8.59843522310257", "FEUP")
+        tree = new Tree(date, new Location("41.177772696363114", "-8.59843522310257", "FEUP"))
     }
 
     def 'Tree Creation'() {
@@ -23,7 +23,7 @@ class TreeSpockTest extends Specification {
 
     def 'Tree Set Location'() {
         given:
-            tree.setLocation("loclat", "loclon", "locname")
+            tree.setLocation(new Location("loclat", "loclon", "locname"))
 
         expect:
             tree.plantedAt == date
