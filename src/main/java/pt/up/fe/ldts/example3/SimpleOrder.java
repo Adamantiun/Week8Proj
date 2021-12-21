@@ -9,7 +9,9 @@ public class SimpleOrder {
     }
 
     public void setDiscount(Discount discount) {
-        this.discount = discount;
+        if (discount != null) {
+            this.discount = discount;
+        }
     }
 
     public double getTotal() {

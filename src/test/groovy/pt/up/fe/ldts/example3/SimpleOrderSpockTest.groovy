@@ -9,7 +9,7 @@ class SimpleOrderSpockTest extends Specification {
             def order = new SimpleOrder(100)
 
         when:
-            order.setDiscount(new Discount(10))
+            order.setDiscount(new Discount(10, 0))
 
         then:
             90 == order.getTotal()
@@ -20,7 +20,7 @@ class SimpleOrderSpockTest extends Specification {
             def order = new SimpleOrder(100)
 
         when:
-            order.setDiscount(new Discount(0.2))
+            order.setDiscount(new Discount(0, 0.2))
 
         then:
             80 == order.getTotal()

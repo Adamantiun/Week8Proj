@@ -4,14 +4,9 @@ public class Discount {
     private final int fixed;
     private final double percentage;
 
-    public Discount(int fixed) {
+    public Discount(int fixed, double percentage) {
         this.fixed = fixed;
-        this.percentage = 0;
-    }
-
-    public Discount(double percentage) {
         this.percentage = percentage;
-        this.fixed = 0;
     }
 
     public double applyDiscount(double price) {
