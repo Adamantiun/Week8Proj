@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example3.SimpleOrderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-21T00:42:02" hostname="DESKTOP-6QRG024" time="0.005">
+<testsuite name="pt.up.fe.ldts.example3.SimpleOrderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-21T00:55:15" hostname="DESKTOP-6QRG024" time="0.003">
   <properties/>
   <testcase name="testFixedDiscount()" classname="pt.up.fe.ldts.example3.SimpleOrderTest" time="0.001"/>
   <testcase name="testPercentageDiscount()" classname="pt.up.fe.ldts.example3.SimpleOrderTest" time="0.001"/>

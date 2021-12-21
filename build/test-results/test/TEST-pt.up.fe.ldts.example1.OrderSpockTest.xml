@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example1.OrderSpockTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-21T00:42:00" hostname="DESKTOP-6QRG024" time="0.609">
+<testsuite name="pt.up.fe.ldts.example1.OrderSpockTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-21T00:55:13" hostname="DESKTOP-6QRG024" time="0.479">
   <properties/>
-  <testcase name="Is Elegible For Free Delivery (Small)" classname="pt.up.fe.ldts.example1.OrderSpockTest" time="0.561"/>
-  <testcase name="Is Elegible For Free Delivery (Large)" classname="pt.up.fe.ldts.example1.OrderSpockTest" time="0.004"/>
-  <testcase name="Print Order" classname="pt.up.fe.ldts.example1.OrderSpockTest" time="0.043"/>
+  <testcase name="Is Elegible For Free Delivery (Small)" classname="pt.up.fe.ldts.example1.OrderSpockTest" time="0.443"/>
+  <testcase name="Is Elegible For Free Delivery (Large)" classname="pt.up.fe.ldts.example1.OrderSpockTest" time="0.001"/>
+  <testcase name="Print Order" classname="pt.up.fe.ldts.example1.OrderSpockTest" time="0.035"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
